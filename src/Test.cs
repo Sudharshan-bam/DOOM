@@ -1,1 +1,1 @@
-public class Test { public void Run() { var repo = new UserRepository(); } }
+public class Test { public async void SaveData() { } }
