@@ -90,3 +90,5 @@ npm test
 ## Troubleshooting
 - **No comments are appearing:** Ensure your `GITHUB_TOKEN` has the `pull-requests: write` permission in repository settings.
 - **Workflow fails with 403 Forbidden:** The action lacks permission to post reviews. Update `permissions` in your workflow.
+
+Tested.
