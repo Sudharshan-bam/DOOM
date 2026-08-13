@@ -1,0 +1,17 @@
+{
+  "name": "pr-sentry",
+  "version": "1.0.0",
+  "description": "GitHub Action to review C# PRs for SOLID, null-handling, and async issues",
+  "main": "src/reviewer.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "parse-diff": "^0.11.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
